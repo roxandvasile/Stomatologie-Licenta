@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Acasa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Styles/preturi.css" type="text/css" />
+<link rel="stylesheet" href="Styles/general.css" type="text/css" />
+
+</head>
+
+<body>
+
+    <header id="header" id="home">
+        <div class="header-top flex">
+            <div class="left-info flex">
+                <ul>
+                    <li>
+                        <a href="#"><img src="Images/facebook.png" class="img-fb"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="Images/telegram.png" class="img-telegram"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="Images/twitter.png" class="img-twitter"></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="right-info flex">
+                <ul>
+                    <li>
+                        <a href="tel: 0126 3654 896 "><span class="tel"></span> <span class="text ">0126 3654 8968</span></a>
+                    </li>
+                    <li>
+                        <a href="mailto:dentalsmaile@gmail.com "><span class="mail"></span> <span class="text ">dentalsmile@gmail.com</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container main-menu">
+            <nav id="nav-menu-container">
+                <div id="logo">
+                    <a href="index.html"><img src="Images/logo2.png" title="Dental Smile" /></a>
+                    <!-- <a href="" class="text-logo"></a>-->
+                </div>
+
+                <ul class="nav-menu">
+                    <li><a href="index.html ">Acasă</a></li>
+                    <li><a href="despre.html ">Despre noi</a></li>
+                    <li><a href="echipa.html ">Echipa</a></li>
+                    <li><a href="preturi.html ">Prețuri</a></li>
+                    <li><a href="galerie.html ">Galerie</a></li>
+                    <li><a href="#contact ">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <input class="search-bar" id="myInput" type="text" onkeyup='tableSearch()' placeholder="Search">
+
+        <table id="myTable" data-filter-control="true" data-show-search-clear-button="true">
+            <tr>
+                <th>#</th>
+                <th>Serviciu</th>
+                <th>Pret/RON</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Consultatie primara</td>
+                <td>100</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Tratament mecanic de canal +spalaturi endodontice</td>
+                <td>220</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Anestezie spray+injectie</td>
+                <td>30</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Drenaj endodontic</td>
+                <td>200</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Incizie+Drenaj abces</td>
+                <td>240</td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td>Pansament calmant in urgenta</td>
+                <td>250</td>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td>Drenaj endodontic in urgenta</td>
+                <td>230</td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td>Calciu endodontic pe canale( prima sedinta in momentul extirparii)</td>
+                <td>gratuit</td>
+            </tr>
+
+
+            <tr>
+                <td>9</td>
+                <td>Antibioterapie pe canale/ calciu endodontic sedinta 2 si 3</td>
+                <td>240</td>
+            </tr>
+
+            <tr>
+                <td>10</td>
+                <td>Consultatie Endodontie la microscop</td>
+                <td>110</td>
+            </tr>
+
+            <tr>
+                <td>11</td>
+                <td>Cimentare provizorie / dinte</td>
+                <td>85</td>
+            </tr>
+
+            <tr>
+                <td>12</td>
+                <td>Coroana provizorie</td>
+                <td>200</td>
+            </tr>
+
+            <tr>
+                <td>13</td>
+                <td>Pivot fibra de sticla</td>
+                <td>300</td>
+            </tr>
+
+            <tr>
+                <td>14</td>
+                <td>FATETE sau COROANE</td>
+                <td>2000</td>
+            </tr>
+
+            <tr>
+                <td>15</td>
+                <td>Coroana zirconiu+ceramica</td>
+                <td>1680</td>
+            </tr>
+
+            <tr>
+                <td>16</td>
+                <td>Proteza partiala acrilica</td>
+                <td>1920</td>
+            </tr>
+
+            <tr>
+                <td>17</td>
+                <td>Proteza totala acrilica</td>
+                <td>2030</td>
+            </tr>
+
+            <tr>
+                <td>18</td>
+                <td>Proteza scheletata clasica</td>
+                <td>3050</td>
+            </tr>
+
+            <tr>
+                <td>19</td>
+                <td>Gutiere albire bucata</td>
+                <td>440</td>
+            </tr>
+
+            <tr>
+                <td>20</td>
+                <td>Tratament de albire a dintilor</td>
+                <td>600</td>
+            </tr>
+
+            <tr>
+                <td>21</td>
+                <td>Albire devitala/dinte</td>
+                <td>140</td>
+            </tr>
+
+            <tr>
+                <td>22</td>
+                <td>Extractie dinte mobil</td>
+                <td>140</td>
+            </tr>
+
+        </table>
+    </main>
+
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="row-footer">
+                <div class="footer-col">
+                    <a href="">Acasa</a>
+                </div>
+                <div class="footer-col">
+                    <a href="">Despre noi</a>
+                </div>
+
+                <div class="footer-col">
+                    <a href="">Echipa</a>
+                </div>
+
+                <div class="footer-col">
+                    <a href="">Contacte</a>
+                </div>
+
+                <div class="footer-col">
+                    <a href="">Servicii</a>
+                </div>
+
+                <div class="footer-col">
+                    <a href="">Preturi</a>
+                </div>
+
+                <div class="footer-col">
+                    <a href="galerie.html ">Galerie</a>
+                </div>
+
+                <div class="social-links">
+                    <a href="#"><img src="Images/facebook.png" class="img-fb"></a>
+                    <a href="#"><img src="Images/telegram.png" class="img-telegram"></a>
+                    <a href="#"><img src="Images/twitter.png" class="img-twitter"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="footer-bottom">
+        <p>Copyright &#169; 2022 | All Rights Reserved | Designed by Roxana Andreea</p>
+    </div>
+
+    <script src="Scripts/search.js"></script>
+</body>
+
+</html>
