@@ -30,6 +30,7 @@ footer {
   background-size: cover;
   background-attachment: fixed;
   position: relative;
+  margin-top: 50px;
 }
 
 .counter-up::before {
@@ -118,6 +119,7 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .heading-primary {
   color: #04091e8a;
   text-transform: uppercase;
@@ -244,4 +246,74 @@ footer {
   font-weight: 700;
   color: #333;
   letter-spacing: -0.5px;
+}
+
+/*********************************/
+.timeline-intro-heading {
+  color: #0dce94;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.timeline-intro-paragraph {
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 20px 0;
+  color: #333;
+  text-align: center;
+}
+
+.timeline {
+  margin: 0 auto;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr 3px 1fr;
+  font-family: "Fira Sans", sans-serif;
+  color: #888;
+  max-width: 65vw;
+}
+
+.timeline-component {
+  margin: 0 20px 20px 20px;
+}
+
+.timeline-component--bg {
+  padding: 1.5em;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  border: 2px solid #0dce94;
+}
+
+.timeline-middle {
+  position: relative;
+  background: #04091e;
+}
+
+.timeline-point {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #04091e;
+}
+
+.timeline-point--bottom {
+  top: initial;
+  bottom: 0;
+}
+
+.timeline-date--right {
+  text-align: right;
+}
+
+.timeline-title {
+  margin-bottom: 10px;
+  font-size: 1.15em;
+  font-weight: bold;
 }
