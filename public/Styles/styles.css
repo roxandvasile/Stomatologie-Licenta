@@ -11,7 +11,8 @@ img {
 }
 
 nav a:hover {
-  color: #0dce94;
+  /* color: #0dce94; */
+  color: #04091e;
   font-weight: bold;
 }
 

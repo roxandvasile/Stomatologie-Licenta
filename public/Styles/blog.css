@@ -1,0 +1,73 @@
+/* nav {
+  background: #0dce94;
+}
+
+nav a {
+  color: #04091e;
+}
+
+nav a:hover {
+  color: #04091e;
+  font-weight: bold;
+} */
+
+/**************************/
+
+main {
+  min-height: 100%;
+}
+
+footer {
+  margin-top: 600px;
+}
+
+/* .social-links a {
+    padding-top: 15px;
+} */
+
+/**************************/
+.container-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../Images/blog.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  object-fit: cover;
+  /* opacity: 0.9; */
+  z-index: -1;
+}
+
+.hero {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  letter-spacing: 10px;
+}
+
+hr {
+  width: 50%;
+  margin: 30px auto;
+  border: 1px solid #fff;
+}
+
+.hero-paragraph {
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#launch {
+  font-size: 25px;
+  word-spacing: 30px auto;
+}

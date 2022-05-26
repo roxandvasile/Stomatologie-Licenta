@@ -4,29 +4,45 @@ grey: #04091e;
 accent: #ef4444, #f87171;
 */
 
-body {
+/* body {
   background: #04091e;
-}
+} */
 
 /*****************************************/
 
+/* nav {
+  /*  border-bottom: 5px solid #0dce94; 
+  border-top: 5px solid#0dce94;
+  background: #0dce94;
+  /* box-shadow: 0 15px 25px rgb(0, 0, 0, 0.2); 
+}
+ */
+/* nav a:hover {
+  color: #0dce94;
+  font-weight: bold;
+} */
+
 nav {
-  border-bottom: 5px solid #0dce94;
-  /*border-top: 5px solid#0dce94;
-    background: #0dce94;
-    box-shadow: 0 15px 25px rgb(0, 0, 0, 0.2);*/
+  background: #0dce94;
+}
+
+nav a {
+  color: #04091e;
 }
 
 nav a:hover {
-  color: #0dce94;
+  color: #04091e;
   font-weight: bold;
 }
 
+/* .current {
+  color: #0dce94;
+} */
 /*****************title galery********************/
 
 .title-galery h1 {
   margin: 20px 0;
-  color: #fff;
+  color: #04091e;
   font-size: 34px;
   text-align: center;
   padding: 50px 0;
@@ -51,6 +67,7 @@ section {
   grid-template-rows: auto;
   row-gap: 15px;
   column-gap: 25px;
+  margin-bottom: 80px;
 }
 
 .grid-item1 {
@@ -58,7 +75,6 @@ section {
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
- 
 }
 
 .grid-item2 {
@@ -128,4 +144,8 @@ section {
 .galery {
   width: 1300px;
   margin: 0 auto;
+}
+
+.box-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
