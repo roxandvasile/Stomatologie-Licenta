@@ -4,5 +4,14 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "stomatologie",
+  "version": "1.0.0",
+  "description": "licenta",
+  "main": "app.js",
+  "author": "Vasile Roxana Andreea",
+  "license": "ISC"
 }
