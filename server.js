@@ -1,4 +1,4 @@
-let express = require('express');
+/* let express = require('express');
 let app = express();
 
 app.use(express.static('public'));
@@ -33,4 +33,4 @@ app.get('/blog.html', function (req, res) {
 
 app.listen(4000, function () {
     console.log('Loading app port 4000');
-});
+}); */
