@@ -1,0 +1,11 @@
+type Entry {
+  name: String!
+  surname: String!
+  email: String!
+  phoneNumber: String!
+  message: String!
+}
+
+type Query {
+  allEntries: [Entry!]!
+}

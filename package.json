@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "node-fetch": "^3.2.5"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
@@ -13,5 +14,14 @@
   "description": "licenta",
   "main": "app.js",
   "author": "Vasile Roxana Andreea",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roxana-debug/siteStomatologie.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Roxana-debug/siteStomatologie/issues"
+  },
+  "homepage": "https://github.com/Roxana-debug/siteStomatologie#readme"
 }
