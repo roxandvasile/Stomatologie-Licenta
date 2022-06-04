@@ -485,36 +485,3 @@ nav a:hover {
   cursor: pointer;
   font-size: 18px;
 }
-/**********/
-
-.contact-form-text {
-  display: flex;
-  flex-direction: column;
-}
-
-.contact-form-text input {
-  border: 2px solid #f0f0f0;
-  border-radius: 4px;
-  display: block;
-  font-size: 12px;
-  padding: 10px;
-  width: 100%;
-}
-
-.contact-form-text input:focus {
-  outline: 0;
-}
-
-.contact-form-text.success input {
-  border-color: #09c372;
-}
-
-.contact-form-text.error input {
-  border-color: #ff3860;
-}
-
-.contact-form-text.error {
-  color: #ff3860;
-  font-size: 9px;
-  height: 13px;
-}
