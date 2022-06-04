@@ -37,7 +37,7 @@ exports.handler = async (event) => {
   return {
     statusCode: 302,
     headers: {
-      Location: "preturi.html",
+      Location: "index.html",
       "Cache-Control": "no-cache",
     },
     body: JSON.stringify({}),
