@@ -181,7 +181,7 @@ nav a:hover {
 .card-two,
 .card-three,
 .card-four {
-  width: 320px;
+  width: 330px;
   height: 320px;
   background-color: #0dce94;
 }
@@ -223,7 +223,7 @@ nav a:hover {
 .container-tel {
   position: relative;
   left: 28px;
-  top: 35px;
+  top: 25px;
 }
 
 .img-tel {
