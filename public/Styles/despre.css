@@ -260,7 +260,7 @@ footer {
 
 .timeline-intro-paragraph {
   font-size: 15px;
-  line-height: 1.5;
+  line-height: 1.7;
   margin: 20px 0;
   color: #333;
   text-align: center;
@@ -316,4 +316,8 @@ footer {
   margin-bottom: 10px;
   font-size: 1.15em;
   font-weight: bold;
+}
+
+.timeline-paragraph {
+  line-height: 1.7;
 }
