@@ -1,4 +1,4 @@
-nav {
+/* nav {
   background: #0dce94;
 }
 
@@ -9,19 +9,24 @@ nav a {
 nav a:hover {
   color: #04091e;
   font-weight: bold;
+} */
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../Images/appointment.jpg);
 }
 
 /***********/
 
 #appointment {
   width: 50%;
-  margin: 0 auto;
+  margin: 50px auto;
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
   border-radius: 10px;
   background: #fff;
-  /*box-shadow: 0px 0px 10px 0px #666;*/
+  /* box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 10px,
+    rgba(17, 17, 26, 0.02) 0px 8px 12px; */
 }
 
 .appointment-form {
