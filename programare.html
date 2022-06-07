@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programare</title>
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet"> -->
+
+  <link rel="stylesheet" href="public/Styles/styles.css" type="text/css" />
+  <link rel="stylesheet" href="public/Styles/general.css" type="text/css" />
+  <link rel="stylesheet" href="public/Styles/programare.css" type="text/css" />
+
+</head>
+
+<body>
+  <header id="header" id="home">
+    <div class="header-top flex">
+      <div class="left-info flex">
+        <ul>
+          <li>
+            <a href="#"><img src="public/Images/facebook.png" class="img-fb"></a>
+          </li>
+          <li>
+            <a href="#"><img src="public/Images/telegram.png" class="img-telegram"></a>
+          </li>
+          <li>
+            <a href="#"><img src="public/Images/twitter.png" class="img-twitter"></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="right-info flex">
+        <ul>
+          <li>
+            <a href="tel: 0126 3654 896 "><span class="tel"></span> <span class="text ">0126 3654
+                8968</span></a>
+          </li>
+          <li>
+            <a href="mailto:dentalsmaile@gmail.com "><span class="mail"></span> <span
+                class="text ">dentalsmile@gmail.com</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container main-menu">
+      <nav id="nav-menu-container">
+        <div id="logo">
+          <a href="index.html"><img src="public/Images/logo2.png" title="Dental Smile" /></a>
+        </div>
+
+        <ul class="nav-menu">
+          <li><a href="index.html">Acasă</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="despre.html">Despre noi</a></li>
+          <li><a href="echipa.html">Echipa</a></li>
+          <li><a href="preturi.html">Prețuri</a></li>
+          <li><a href="galerie.html">Galerie</a></li>
+          <li><a href="programare.html" class="current">Programeaza-te</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="appointment">
+    <div class="appointment-form">
+      <h2>Programeaza-te pentru un consult</h2>
+
+      <form name="appointments" method="POST" data-netlify="true" id="form">
+        <input class="appointment-form-text nume" value="" type="text" id="nume" name="nume" placeholder="Nume">
+        <input class="appointment-form-text prenume" value="" type="text" id="prenume" name="prenume"
+          placeholder="Prenume">
+        <input class="appointment-form-text email" value="" type="email" id="email" name="email" placeholder="Email">
+        <input class="appointment-form-text telefon" value="" type="tel" id="telefon" name="telefon"
+          placeholder="Telefon">
+        <input class="appointment-form-text date" value="" type="date" id="date" name="date" min="2022-07-06">
+        <input class="appointment-form-text time" value="" type="time" id="time" name="time">
+
+        <select class="appointment-form-text doctors" id="doctors" name="doctors">
+          <option value="doctors">Selecteaza un doctor</option>
+          <option value="alina">Dr. Alina Tanase</option>
+          <option value="mirel">Dr.Mirel Marcu</option>
+          <option value="roxana">Dr. Roxana Patru</option>
+          <option value="vlad">Dr. Vlad Tudor</option>
+        </select>
+
+        <textarea class="appointment-form-textarea" value="" id="nume" name="mesaj" placeholder="Mesaj"></textarea>
+        <input class="appointment-form-btn" type="submit" value="Submit" name="submit">
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container-footer">
+      <div class="row-footer">
+        <div class="footer-col">
+          <a href="index.html ">Acasă</a>
+        </div>
+        <div class="footer-col">
+          <a href="">Blog</a>
+        </div>
+
+        <div class="footer-col">
+          <a href="">Despre noi</a>
+        </div>
+
+        <div class="footer-col">
+          <a href="#contact">Echipă</a>
+        </div>
+
+        <div class="footer-col">
+          <a href="">Prețuri</a>
+        </div>
+
+        <div class="footer-col">
+          <a href="">Galerie</a>
+        </div>
+
+        <div class="footer-col">
+          <a href="galerie.html ">Contacte</a>
+        </div>
+
+        <div class="social-links">
+          <a href="#"><img src="public/Images/facebook.png" class="img-fb"></a>
+          <a href="#"><img src="public/Images/telegram.png" class="img-telegram"></a>
+          <a href="#"><img src="public/Images/twitter.png" class="img-twitter"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="footer-bottom">
+    <p>Copyright &#169; 2022 | All Rights Reserved | Designed by Roxana Andreea</p>
+  </div>
+
+  <!--   <script src="server.js"></script> -->
+</body>
+
+</html>
