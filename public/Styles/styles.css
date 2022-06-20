@@ -1,4 +1,4 @@
-/******text from the background*****/
+/*background and text form the top*/
 .bg-video {
   width: 100%;
   min-height: 100%;
@@ -18,18 +18,18 @@ video {
   opacity: 0.6;
 }
 
+/*******************/
 .text {
   padding-top: 120px;
   position: relative;
 }
 
-.text h1 {
+h1 {
   font-size: 62px;
   font-weight: 400;
   color: #fff;
   /*spatiul dintre randuri*/
   line-height: 1.1;
-  /*spatiul dintre litere*/
   letter-spacing: -3px;
   text-transform: uppercase;
 }
@@ -54,10 +54,10 @@ video {
   letter-spacing: 2px;
   transition: 0.2s;
 }
+
 img {
   height: 200px;
-  /*scalam imaginea*/
-  transform: scale(1.5);
+
   box-shadow: 0 12px 24px rgb(0, 0, 0, 0, 25);
 }
 
@@ -307,6 +307,8 @@ nav a:hover {
 .div1 img {
   margin-top: 10px;
   border-radius: 5px 100px;
+  /*scalam imaginea*/
+  transform: scale(1.5);
 }
 
 .div2 {
@@ -317,6 +319,8 @@ nav a:hover {
 .div2 img {
   margin-top: 40px;
   border-radius: 100px 5px 100px 5px;
+  /*scalam imaginea*/
+  transform: scale(1.5);
 }
 
 .div3 {

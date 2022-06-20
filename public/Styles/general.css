@@ -30,10 +30,6 @@ body {
   margin-left: 80px;
 }
 
-.right-info {
-  margin-right: 80px;
-}
-
 .img-fb,
 .img-telegram,
 .img-twitter {
@@ -42,17 +38,25 @@ body {
   transform: scale(1.5);
 }
 
+.right-info {
+  margin-right: 80px;
+}
+
+#logo img {
+  width: 75px;
+  height: 75px;
+  margin-left: 50px;
+}
+
+.nav-menu {
+  margin-right: 50px;
+}
+
 .current {
   color: #04091e;
 }
 
 /*****************************************/
-
-/* 
-*/
-.nav-menu {
-  margin-right: 50px;
-}
 
 nav {
   position: absolute;
@@ -78,25 +82,6 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin-right: 20px;
-}
-
-#logo {
-  display: inline-block;
-}
-
-#logo a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 30px;
-}
-
-#logo img {
-  transform: scale(1.5);
-  width: 50px;
-  height: 50px;
-  padding-top: 10px;
-  padding-left: 10px;
-  margin-left: 50px;
 }
 
 /*****************footer************************/
