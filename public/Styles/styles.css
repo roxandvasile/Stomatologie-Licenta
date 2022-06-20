@@ -1,24 +1,23 @@
 /*background and text form the top*/
-.bg-video {
+.intro {
   width: 100%;
-  min-height: 100%;
+  min-height: 100vh;
   padding: 100px;
   position: absolute;
   background-color: #04091e;
   transition: 0.5s;
 }
 
-video {
+.intro video {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   object-fit: cover;
   opacity: 0.6;
 }
 
-/*******************/
 .text {
   padding-top: 120px;
   position: relative;
@@ -28,7 +27,7 @@ h1 {
   font-size: 62px;
   font-weight: 400;
   color: #fff;
-  /*spatiul dintre randuri*/
+  /*spațiul dintre rânduri*/
   line-height: 1.1;
   letter-spacing: -3px;
   text-transform: uppercase;
@@ -43,97 +42,26 @@ h1 {
 
 .text a {
   display: inline-block;
-  font-size: 1em;
   background: #0dce94;
   color: #fff;
   padding: 10px 30px;
   text-transform: uppercase;
   text-decoration: none;
-  font-weight: 500;
-  margin-top: 10px;
+  margin-top: 15px;
   letter-spacing: 2px;
-  transition: 0.2s;
 }
 
-img {
-  height: 200px;
-
-  box-shadow: 0 12px 24px rgb(0, 0, 0, 0, 25);
+.text a:hover {
+  background: #0dce9494;
 }
 
-nav a:hover {
-  /* color: #0dce94; */
-  color: #04091e;
-  font-weight: bold;
-}
-
-/*CONTROLS*/
-
-.btn {
-  background-color: #fff;
-  border: none;
-  height: 40px;
-  width: 40px;
-  border-radius: 50px;
-  position: absolute;
-  cursor: pointer;
-  box-shadow: 0 12px 24px rgb(0, 0, 0, 0.2);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.btn--left {
-  /* In relation to PARENTE ELEMENT*/
-  left: 0;
-  top: 50%;
-  /*50% of parent container's height*/
-  /* In relation to ELEMENT ITSELF*/
-  transform: translate(-50%, -50%);
-  /* 0 ignoring the x (horizontal) value, -50% of actual element's height */
-}
-
-.btn--right {
-  right: 0;
-  top: 50%;
-  transform: translate(50%, -50%);
-}
-
-.btn-icon {
-  height: 24px;
-  width: 24px;
-  stroke: #087f5b;
-}
-
-.dots {
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translate(50%, 32px);
-  display: flex;
-  gap: 12px;
-}
-
-.dot {
-  height: 12px;
-  width: 12px;
-  background-color: #fff;
-  border: 2px solid #087f5b;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.dot--fill {
-  background-color: #087f5b;
-}
-
-/***********bg card******verificat*****/
+/*background card*/
 
 .bg-cards {
   background: #04091e;
   width: 100%;
-  min-height: 60vh;
-  margin-top: 700px;
+  min-height: 50vh;
+  margin-top: 44em;
   position: absolute;
 }
 
@@ -143,6 +71,7 @@ nav a:hover {
   text-transform: uppercase;
   font-size: 14px;
   padding-top: 60px;
+  letter-spacing: 1px;
 }
 
 .text-bg-cards h3 {
@@ -153,13 +82,12 @@ nav a:hover {
   text-transform: capitalize;
 }
 
-/***********card**verificat*********/
-
+/*cards*/
 .container-cards {
   display: flex;
   position: relative;
   justify-content: center;
-  margin-top: 900px;
+  margin-top: 56em;
 }
 
 .card-one,
@@ -167,7 +95,7 @@ nav a:hover {
 .card-three,
 .card-four {
   width: 330px;
-  height: 320px;
+  height: 330px;
   background-color: #0dce94;
 }
 
@@ -175,21 +103,16 @@ nav a:hover {
   border-radius: 10px 0 0 10px;
 }
 
-.card-four {
-  border-radius: 0 10px 10px 0;
-}
-
 .img-cards {
   position: relative;
   left: 24px;
   top: 20px;
-  width: 25px;
+  width: 45px;
   height: auto;
 }
 
 .title-cards {
   color: #04091e;
-  padding-top: 16px;
   font-size: 36px;
   position: relative;
   left: 20px;
@@ -200,44 +123,26 @@ nav a:hover {
   color: #04091e;
   position: relative;
   left: 20px;
-  padding: 50px 0 30px 0;
-  font-size: 16px;
+  padding: 46px 0 35px 0;
   line-height: 1.7;
 }
 
 .container-tel {
   position: relative;
   left: 28px;
-  top: 25px;
+  top: 17px;
 }
 
 .img-tel {
-  width: 20px;
+  width: 30px;
   height: auto;
 }
 
 .container-tel a {
   color: #04091e;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 17px;
   padding-left: 20px;
-}
-
-.button-cards {
-  text-decoration: none;
-  background-color: #04091e;
-  color: #0dce94;
-  border: none;
-  cursor: pointer;
-  text-align: center;
-  position: relative;
-  left: 20px;
-  padding: 10px 22px;
-}
-
-.button-cards:hover {
-  background-color: #1d2235;
-  color: #3dd8a9;
 }
 
 .card-three ul {
@@ -253,27 +158,43 @@ nav a:hover {
   padding: 10px 0;
 }
 
-.li-one {
-  padding-left: 40px;
+.hours-one {
+  padding-left: 44px;
 }
 
-.li-two {
+.hours-two {
   padding-left: 63px;
 }
 
-.li-three {
+.hours-three {
   padding-left: 60px;
 }
 
-.new1 {
-  border: 0;
+.line {
   width: 80%;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-/*********** citat card**verificat*********/
+.card-four {
+  border-radius: 0 10px 10px 0;
+}
 
+.button-cards {
+  text-decoration: none;
+  background-color: #04091e;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  left: 20px;
+  padding: 10px 22px;
+}
+
+.button-cards:hover {
+  background-color: #1d2235;
+}
+
+/*citatul*/
 .quotes-cards {
   color: #04091e;
   text-align: center;
@@ -287,15 +208,15 @@ nav a:hover {
   width: 55px;
   height: 55px;
   opacity: 0.3;
+  margin-top: 20px;
   position: absolute;
 }
 
-/*******section three*****verificat********/
-
+/*secțiune avantaje*/
 .parent {
   background: #04091e;
   display: grid;
-  margin: 84px 0 0 200px;
+  margin: 54px 0 0 200px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
 }
@@ -305,6 +226,7 @@ nav a:hover {
 }
 
 .div1 img {
+  height: 200px;
   margin-top: 10px;
   border-radius: 5px 100px;
   /*scalam imaginea*/
@@ -312,13 +234,13 @@ nav a:hover {
 }
 
 .div2 {
-  margin-top: 35px;
   grid-area: 2 / 1 / 3 / 2;
 }
 
 .div2 img {
-  margin-top: 40px;
-  border-radius: 100px 5px 100px 5px;
+  height: 200px;
+  margin-top: 75px;
+  border-radius: 100px 5px;
   /*scalam imaginea*/
   transform: scale(1.5);
 }
@@ -335,19 +257,19 @@ nav a:hover {
   padding-bottom: 50px;
 }
 
-.div3 ul li {
+.div3 li {
   list-style: none;
   background: url("/public/Images/logo_lista.png") no-repeat left center;
   font-size: 16px;
   padding: 15px 9px 9px 40px;
 }
 
-/**********section four*************/
+/*section four*/
 
 .title-section-four {
   color: #04091e;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 100px;
   font-size: 35px;
 }
 
@@ -355,11 +277,11 @@ nav a:hover {
   color: #04091e;
   text-align: center;
   margin-top: 20px;
+  line-height: 1.7;
 }
 
 .cards-doctors {
   display: flex;
-  position: relative;
   justify-content: center;
   margin-top: 70px;
 }
@@ -373,15 +295,14 @@ nav a:hover {
   color: #fff;
   height: 120px;
   width: 280px;
-  /*margin: auto;*/
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 .name-doctor {
   font-size: 16px;
   text-align: center;
   position: relative;
-  top: 80px;
+  top: 70px;
 }
 
 .circular--square {
@@ -395,39 +316,24 @@ nav a:hover {
   height: 80px;
 }
 
-/* .social-links a {
-    padding-top: 15px;
-} */
-
-/**********section five*************/
+/*formular de contact*/
 
 .section-five {
   margin: 40px 0;
   display: grid;
-  /*align-items: center;*/
 }
 
 .contact-us {
-  width: 80%;
+  width: 83%;
   height: auto;
   margin: auto;
   display: flex;
-  flex-wrap: wrap;
-  padding: 10px;
-  border-radius: 10px;
-  background: #fff;
-  /*box-shadow: 0px 0px 10px 0px #666;*/
 }
 
 .contact-map {
   width: 100%;
   height: auto;
   flex: 50%;
-}
-
-.contact-map iframe {
-  width: 100%;
-  height: 100%;
 }
 
 .contact-form {
@@ -439,39 +345,35 @@ nav a:hover {
 }
 
 .contact-form h2 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .contact-form-text {
-  width: 100%;
   height: 40px;
-  color: #04091e;
-  border: 1px solid #bcbcbc;
-  border-radius: 50px;
-  outline: none;
-  margin-bottom: 20px;
-  padding: 15px;
 }
 
 .contact-form-textarea {
-  width: 100%;
   height: 130px;
+}
+
+.contact-form-text,
+.contact-form-textarea,
+.contact-form-btn {
+  width: 100%;
   color: #04091e;
   border: 1px solid #bcbcbc;
-  border-radius: 10px;
-  outline: none;
   margin-bottom: 20px;
   padding: 15px;
 }
 
 .contact-form-btn {
-  width: 100%;
-  border: none;
-  outline: none;
-  border-radius: 50px;
   background: #0dce94;
   color: #fff;
   padding: 10px 0;
   cursor: pointer;
   font-size: 18px;
+}
+
+.contact-form-btn:hover {
+  background: #0dce9494;
 }

@@ -45,18 +45,8 @@ body {
 #logo img {
   width: 75px;
   height: 75px;
-  margin-left: 50px;
+  margin-left: 75px;
 }
-
-.nav-menu {
-  margin-right: 50px;
-}
-
-.current {
-  color: #04091e;
-}
-
-/*****************************************/
 
 nav {
   position: absolute;
@@ -64,27 +54,38 @@ nav {
   width: 100%;
   font-size: 16px;
   line-height: 80px;
-  padding: 0 29px;
   z-index: 1;
+  font-weight: bold;
 }
 
 nav a {
   text-decoration: none;
   color: #fff;
+}
+
+nav a:hover {
+  color: #04091e;
   font-weight: bold;
 }
 
 nav ul {
-  list-style: none;
   float: right;
 }
 
-nav ul li {
+nav li {
   display: inline-block;
   margin-right: 20px;
 }
 
-/*****************footer************************/
+.nav-menu {
+  margin-right: 75px;
+}
+
+.current {
+  color: #04091e;
+}
+
+/*footer*/
 
 .footer {
   background-color: #04091e;
@@ -103,8 +104,7 @@ nav ul li {
 
 .footer-col {
   width: 25%;
-  padding: 0 15px;
-  padding: 30px 0;
+  padding: 30px 15px;
 }
 
 .footer-col a {
