@@ -63,7 +63,7 @@
     </header>
 
     <main>
-        <header class="title">
+        <div class="container-top-section">
             <picture>
                 <source srcset="public/Images/about-top.webp" type="image/webp">
                 <source srcset="public/Images/about-top-min.jpg" type="image/jpg">
@@ -71,23 +71,15 @@
                 <img class="img-header" src="public/Images/about-top-min.jpg">
             </picture>
 
-            <div class="text-box">
-                <h1 class="heading-primary">
-                    <span class="heading-primary-main">Despre noi</span>
-                </h1>
-            </div>
-        </header>
+            <h1 class="heading-top-section">Despre noi</h1>
+        </div>
 
-        <section class="section-logos">
-            <div class="container-logos">
-                <div class="logos">
-                    <img src="public/Images/colgate.png" alt="">
-                    <img src="public/Images/Oral-B.png" />
-                    <img src="public/Images/Aquafresh.png">
-                    <img src="public/Images/Sensodyne.png" alt="">
-                </div>
-            </div>
-        </section>
+        <div class="logos">
+            <img src="public/Images/colgate.png" alt="">
+            <img src="public/Images/Oral-B.png" />
+            <img src="public/Images/Aquafresh.png">
+            <img src="public/Images/Sensodyne.png" alt="">
+        </div>
 
         <div>
             <h2 class="timeline-intro-heading">Evoluția cabinetului nostru dentar</h2>
@@ -366,14 +358,7 @@
         </p>
     </div>
 
-    <script>
-        $(document).ready(function () {
-            $(".counter").counterUp({
-                delay: 50,
-                time: 1200,
-            });
-        });
-    </script>
+    <script src="public/Scripts/counterUp.js"></script>
 </body>
 
 </html>

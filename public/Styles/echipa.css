@@ -1,23 +1,6 @@
-/*color palet
-main:#0dce94;
-grey: #04091e;
-accent: #ef4444, #f87171;
-*/
-
 nav {
   background: #0dce94;
 }
-
-nav a {
-  color: #04091e;
-}
-
-nav a:hover {
-  color: #04091e;
-  font-weight: bold;
-}
-
-/***************/
 
 .icon-section {
   display: block;
