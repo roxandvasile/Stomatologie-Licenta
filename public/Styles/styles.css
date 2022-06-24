@@ -82,7 +82,7 @@ h1 {
   text-transform: capitalize;
 }
 
-/*cards*/
+/*cardurile*/
 .container-cards {
   display: flex;
   position: relative;
@@ -212,7 +212,7 @@ h1 {
   position: absolute;
 }
 
-/*secțiune avantaje*/
+/*secțiunea avantaje*/
 .parent {
   background: #04091e;
   display: grid;

@@ -42,11 +42,9 @@ table {
   top: 30%;
   width: 87%;
   text-align: center;
-  /* background: #0dce949e;*/
   border-collapse: collapse;
   border-spacing: 0;
   border-radius: 5px 5px 0 0;
-  /*  overflow: hidden; */
 }
 
 th,
@@ -55,7 +53,6 @@ td {
 }
 
 th {
-  /* background-color: #087c59;*/
   background-color: #04091e;
   color: #fff;
   text-transform: uppercase;
