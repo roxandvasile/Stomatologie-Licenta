@@ -2,57 +2,47 @@ nav {
   background: #0dce94;
 }
 
-.icon-section {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+/*icon, title, paragraph*/
+
+.icon-top {
   width: 5%;
-  margin-top: 50px;
+  display: block;
+  /*margin: top, right left, bottom*/
+  margin: 150px auto 0;
 }
 
-.title-team {
-  text-transform: capitalize;
+.title-page {
   text-align: center;
   font-size: 55px;
   font-weight: 400;
+  text-transform: capitalize;
+  /*margin: top bottom*/
   margin: 20px 0;
 }
 
-.paragraph-team {
+.paragraph-top {
   text-align: center;
   font-size: 20px;
   line-height: 1.7;
 }
 
-/****************/
+/*normal images*/
 
 .parent-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
   margin-top: 50px;
+  grid-column-gap: 100px;
 }
 
-.div1 {
-  grid-area: 1 / 1 / 2 / 2;
-  margin-left: 100px;
-}
-
-.div2 {
-  grid-area: 1 / 2 / 2 / 3;
-  margin-left: 80px;
-}
-
+.div1,
 .div3 {
-  grid-area: 2 / 1 / 3 / 2;
-  margin-left: 100px;
+  margin-left: auto;
 }
 
+.div2,
 .div4 {
-  grid-area: 2 / 2 / 3 / 3;
-  margin-left: 80px;
+  margin-right: auto;
 }
 
 .div1 img,
@@ -64,72 +54,74 @@ nav {
 }
 
 .doctor-info {
-  display: inline-block;
-  width: 270px;
-  position: relative;
-  bottom: 75px;
-  left: 16px;
-  font-size: 20px;
-  font-weight: 500;
+  width: 320px;
   color: #04091e;
   background-color: #0dce94;
-  padding: 5px 0;
-  padding-left: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 9px 15px;
+  position: relative;
+  bottom: 86px;
+  left: 25px;
 }
 
-/**********************popup*************************/
+/*popup images*/
 
-.continer .popup-view {
-  z-index: 2;
+.popup-view {
+  color: #03045e;
   background-color: #04091e90;
+  align-items: center;
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: 2;
   opacity: 0;
   visibility: hidden;
-  color: #03045e;
+  justify-content: center;
 }
 
-.continer .popup-view.active {
+.popup-view.active {
   opacity: 1;
   visibility: visible;
 }
 
-.continer .popup-card {
+.popup-card {
   position: relative;
   display: flex;
   width: 800px;
-  height: auto;
-  margin: 20px;
 }
 
-.continer .popup-card .product-img {
-  z-index: 2;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.close-btn {
+  cursor: pointer;
+  font-size: 20px;
+  margin: 20px;
+  z-index: 3;
+  position: absolute;
+  right: 0;
+}
+
+.product-img {
   width: 42%;
   height: 70%;
-  transform: translateY(25px);
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  transform: translateY(30px);
 }
 
-.continer .popup-card .product-img img {
-  z-index: 2;
+.product-img img {
   position: relative;
   width: 450px;
   left: -57px;
   top: 30px;
 }
 
-.continer .popup-card .info {
+/**********************popup***********/
+
+.info {
   z-index: 2;
   background: #0dce94;
   display: flex;
@@ -140,35 +132,25 @@ nav {
   padding: 40px;
 }
 
-.continer .popup-card .close-btn {
-  /*color: #555;*/
-  z-index: 3;
-  position: absolute;
-  right: 0;
-  font-size: 20px;
-  margin: 20px;
-  cursor: pointer;
-}
-
-.continer .popup-card .info h2 {
+.popup-card .info h2 {
   font-size: 25px;
   /*line-height: 30px;*/
   margin: 10px;
 }
 
-.continer .popup-card .info h2 span {
+.popup-card .info h2 span {
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
-.continer .popup-card .info p {
+.popup-card .info p {
   font-size: 15px;
   margin: 10px;
   line-height: 1.5;
 }
 
-.continer .popup-card .info .tel,
+.popup-card .info .tel,
 .mail {
   font-size: 15px;
   margin: 10px;
@@ -176,33 +158,31 @@ nav {
   color: #03045e;
 }
 
-.continer .popup-card .info .text {
+.popup-card .info .text {
   font-size: 14px;
   text-decoration: none;
   font-weight: 500;
 }
 
-.continer .popup-card .info .tel a,
+.popup-card .info .tel a,
 .mail a {
   color: #04091e;
   text-decoration: none;
   font-weight: 300;
 }
 
-.continer .popup-card .info .tel a:hover {
+.popup-card .info .tel a:hover {
   color: #fff;
   text-decoration: none;
   font-weight: 300;
 }
 
-.continer .popup-card .info .mail a:hover {
+.popup-card .info .mail a:hover {
   color: #fff;
   text-decoration: none;
   font-weight: 300;
 }
 
-.continer .popup-card .info .social-links {
+.popup-card .info .social-links {
   margin: 10px;
 }
-
-/*******************/

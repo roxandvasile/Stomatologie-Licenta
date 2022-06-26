@@ -3,22 +3,15 @@ body {
     url(../Images/appointment.jpg);
 }
 
-/***********/
-
 #appointment {
   width: 50%;
-  margin: 50px auto;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px;
-  border-radius: 10px;
+  margin: 140px auto;
   background: #fff;
 }
 
 .appointment-form {
-  padding: 30px;
+  padding: 40px;
   text-align: center;
-  width: 100%;
 }
 
 .appointment-form h2 {
@@ -26,12 +19,8 @@ body {
 }
 
 .appointment-form-text {
-  width: 100%;
   height: 40px;
-  color: #04091e;
   border: 1px solid #bcbcbc;
-  border-radius: 10px;
-  outline: none;
   margin-bottom: 20px;
   padding: 15px;
 }
@@ -39,25 +28,25 @@ body {
 .appointment-form-textarea {
   width: 100%;
   height: 130px;
-  color: #04091e;
   border: 1px solid #bcbcbc;
-  border-radius: 10px;
-  outline: none;
   margin-bottom: 20px;
   padding: 15px;
 }
 
 .appointment-form-btn {
-  width: 100%;
-  border: none;
-  outline: none;
-  border-radius: 10px;
-  background: #0dce94;
   color: #fff;
-  padding: 10px 0;
+  background: #0dce94;
   cursor: pointer;
   font-size: 18px;
+  width: 100%;
+  padding: 10px 0;
+  border: none;
 }
+
+.appointment-form-btn:hover {
+  background: #0dce94cc;
+}
+
 .nume,
 .email,
 .date {
@@ -72,6 +61,7 @@ body {
 .time {
   width: 300px;
 }
+
 .doctors {
   width: 100%;
   height: auto;

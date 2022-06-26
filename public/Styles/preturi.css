@@ -2,60 +2,27 @@ nav {
   background: #0dce94;
 }
 
-nav a {
-  color: #04091e;
-}
-
-nav a:hover {
-  color: #04091e;
-  font-weight: bold;
-}
-
-/************************/
-
 .search-bar {
-  font-size: 16px;
-  margin-top: 30px;
-  margin-left: 70px;
-  padding-left: 15px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 5px;
-  border-style: solid;
-  float: right;
-  margin-right: 95px;
   width: 300px;
-}
-
-main {
-  min-height: 100%;
-}
-
-footer {
-  margin-top: 1100px;
+  float: right;
+  font-size: 16px;
+  /*margin: top right bottom left*/
+  margin: 110px 95px 0 70px;
+  padding: 5px 0 5px 15px;
+  border-style: solid;
 }
 
 table {
-  padding-bottom: 50px;
+  text-align: center;
   position: absolute;
   left: 7%;
   top: 30%;
   width: 87%;
-  text-align: center;
-  border-collapse: collapse;
   border-spacing: 0;
-  border-radius: 5px 5px 0 0;
 }
 
-th,
-td {
-  padding: 10px 70px;
-}
-
-th {
-  background-color: #04091e;
-  color: #fff;
-  text-transform: uppercase;
+tr:nth-child(odd) {
+  background-color: #e6e6e69d;
 }
 
 tr:hover {
@@ -64,6 +31,17 @@ tr:hover {
   color: #087c59;
 }
 
-tr:nth-child(odd) {
-  background-color: #e6e6e69d;
+th {
+  color: #fff;
+  background-color: #04091e;
+  text-transform: uppercase;
+}
+
+th,
+td {
+  padding: 10px 70px;
+}
+
+footer {
+  margin-top: 68.75rem; /*1100px*/
 }

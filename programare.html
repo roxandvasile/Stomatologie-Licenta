@@ -6,68 +6,60 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Programare</title>
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet"> -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="public/Styles/styles.css" type="text/css" />
   <link rel="stylesheet" href="public/Styles/general.css" type="text/css" />
   <link rel="stylesheet" href="public/Styles/programare.css" type="text/css" />
-
 </head>
 
 <body>
-  <header id="header" id="home">
-    <div class="header-top flex">
-      <div class="left-info flex">
+  <header>
+    <div class="header-top">
+      <div class="left-info">
         <ul>
           <li>
-            <a href="#"><img src="public/Images/facebook.png" class="img-fb"></a>
+            <a href="#"><img class="img-fb" src="public/Images/facebook.png"></a>
           </li>
           <li>
-            <a href="#"><img src="public/Images/telegram.png" class="img-telegram"></a>
+            <a href="#"><img class="img-telegram" src="public/Images/telegram.png"></a>
           </li>
           <li>
-            <a href="#"><img src="public/Images/twitter.png" class="img-twitter"></a>
+            <a href="#"><img class="img-twitter" src="public/Images/twitter.png"></a>
           </li>
         </ul>
       </div>
-
-      <div class="right-info flex">
+      <div class="right-info">
         <ul>
           <li>
-            <a href="tel: 0126 3654 896 "><span class="tel"></span> <span class="text ">0126 3654 8968</span></a>
+            <a href="tel: 0126 3654 896">0126 3654 8968</a>
           </li>
           <li>
-            <a href="mailto:dentalsmaile@gmail.com "><span class="mail"></span> <span
-                class="text ">dentalsmile@gmail.com</span></a>
+            <a href="mailto:dentalsmaile@gmail.com">dentalsmile@gmail.com</a>
           </li>
         </ul>
       </div>
     </div>
 
-    <div class="container main-menu">
-      <nav id="nav-menu-container">
-        <div id="logo">
-          <a href="index.html"><img src="public/Images/logo2.png" title="Dental Smile" /></a>
-        </div>
+    <nav>
+      <a id="logo" href="index.html"><img src="public/Images/logo2.png" title="Dental Smile"></a>
 
-        <ul class="nav-menu">
-          <li><a href="index.html">Acasă</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="despre.html">Despre noi</a></li>
-          <li><a href="echipa.html">Echipa</a></li>
-          <li><a href="preturi.html">Prețuri</a></li>
-          <li><a href="galerie.html">Galerie</a></li>
-          <li><a href="programare.html" class="current">Programeaza-te</a></li>
-        </ul>
-      </nav>
-    </div>
+      <ul class="nav-menu">
+        <li><a href="index.html">Acasă</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="despre.html">Despre noi</a></li>
+        <li><a href="echipa.html">Echipa</a></li>
+        <li><a href="preturi.html">Prețuri</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="programare.html" class="current">Programează-te</a></li>
+      </ul>
+    </nav>
   </header>
 
   <section id="appointment">
     <div class="appointment-form">
-      <h2>Programeaza-te acum!</h2>
+      <h2>Programează-te acum!</h2>
 
       <form name="appointments" method="POST" data-netlify="true" id="form">
         <input class="appointment-form-text nume" value="" type="text" id="nume" name="nume" placeholder="Nume">
@@ -80,7 +72,7 @@
         <input class="appointment-form-text time" value="" type="time" id="time" name="ora">
 
         <select class="appointment-form-text doctors" id="doctors" name="doctorul">
-          <option value="">Selecteaza un doctor</option>
+          <option value="">Selectează un doctor</option>
           <option value="Dr. Alina Tanase">Dr. Alina Tanase</option>
           <option value="Dr.Mirel Marcu">Dr.Mirel Marcu</option>
           <option value="Dr. Roxana Patru">Dr. Roxana Patru</option>
@@ -133,7 +125,9 @@
   </footer>
 
   <div class="footer-bottom">
-    <p>Copyright &#169; 2022 | All Rights Reserved | Designed by Roxana Andreea</p>
+    <p>
+      Copyright &#169; 2022 | All Rights Reserved | Designed by Roxana Andreea
+    </p>
   </div>
 </body>
 
