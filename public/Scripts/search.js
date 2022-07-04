@@ -1,4 +1,5 @@
 function tableSearch() {
+    //Declaram variabilele
     let input, filter, table, tr, td, txtValue;
 
     //Initaializam variabilele
@@ -7,6 +8,7 @@ function tableSearch() {
     table = document.getElementById("myTable");
     tr = document.getElementsByTagName("tr");
 
+    //parcurgem toate randurile tabelului si le ascundem pe cele care nu se potrivesc
     for (let i = 0; i < tr.length; i++) {
         td = tr[i].getElementsByTagName("td")[1]
 
@@ -18,6 +20,5 @@ function tableSearch() {
                 tr[i].style.display = "none";
             }
         }
-
     }
 }
