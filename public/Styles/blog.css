@@ -14,7 +14,7 @@
   transform: translate(-50%, -50%);
 }
 
-p {
+.paragraph-hero {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
