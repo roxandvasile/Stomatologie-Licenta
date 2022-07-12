@@ -11,13 +11,13 @@ body {
 
 .header-top {
   background: #04091e;
-  font-size: 12px;
+  font-size: 0.75rem;
   display: flex;
   justify-content: space-between;
 }
 
 .header-top li {
-  margin: 16px;
+  margin: 1rem;
   display: inline-block;
 }
 

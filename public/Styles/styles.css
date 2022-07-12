@@ -24,7 +24,7 @@
 }
 
 h1 {
-  font-size: 62px;
+  font-size: 4rem;
   font-weight: 400;
   color: #fff;
   /*spațiul dintre rânduri*/
@@ -210,6 +210,10 @@ h1 {
   opacity: 0.3;
   margin-top: 20px;
   position: absolute;
+}
+
+.author {
+  font-size: 20px;
 }
 
 /*secțiunea avantaje*/
