@@ -1,9 +1,8 @@
 nav {
-  background: #0dce94;
+  background: var(--light-green);
 }
 
 /*icon, title, paragraph*/
-
 .icon-top {
   width: 5%;
   display: block;
@@ -27,7 +26,6 @@ nav {
 }
 
 /*normal images*/
-
 .parent-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -55,8 +53,8 @@ nav {
 
 .doctor-info {
   width: 320px;
-  color: #04091e;
-  background-color: #0dce94;
+  color: var(--dark-blue);
+  background-color: var(--light-green);
   font-size: 20px;
   font-weight: 500;
   padding: 9px 15px;
@@ -66,7 +64,6 @@ nav {
 }
 
 /*popup images*/
-
 .popup-view {
   color: #03045e;
   background-color: #04091e90;
@@ -119,11 +116,11 @@ nav {
   top: 30px;
 }
 
-/**********************popup***********/
+/*popup*/
 
 .info {
   z-index: 2;
-  background: #0dce94;
+  background: var(--light-green);
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -166,19 +163,19 @@ nav {
 
 .popup-card .info .tel a,
 .mail a {
-  color: #04091e;
+  color: var(--dark-blue);
   text-decoration: none;
   font-weight: 300;
 }
 
 .popup-card .info .tel a:hover {
-  color: #fff;
+  color: var(--white);
   text-decoration: none;
   font-weight: 300;
 }
 
 .popup-card .info .mail a:hover {
-  color: #fff;
+  color: var(--white);
   text-decoration: none;
   font-weight: 300;
 }

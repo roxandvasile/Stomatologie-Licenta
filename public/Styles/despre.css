@@ -47,7 +47,7 @@
 /*timeline*/
 
 .timeline-intro-heading {
-  color: #0dce94;
+  color: var(--light-green);
   font-size: 30px;
   text-align: center;
   letter-spacing: 2px;
@@ -80,21 +80,21 @@
 
 .timeline-line {
   position: relative;
-  background: #04091e;
+  background: var(--dark-blue);
 }
 
 .timeline-point {
   width: 15px;
   height: 15px;
   position: absolute;
-  background: #04091e;
+  background: var(--dark-blue);
   left: 50%;
   transform: translateX(-50%);
 }
 
 .timeline-component--bg {
   padding: 1.5em;
-  border: 2px solid #0dce94;
+  border: 2px solid var(--light-green);
 }
 
 .timeline-title {
@@ -145,19 +145,17 @@
 }
 
 .icon {
-  color: #e6e6e6;
+  color: var(--gray);
   font-size: 48px;
 }
 
-.counter {
-  color: #f2f2f2;
-  font-size: 50px;
+.counter,
+.text {
+  color: var(--white);
   font-weight: 500;
 }
-
-.text {
-  color: #ccc;
-  font-weight: 500;
+.counter {
+  font-size: 50px;
 }
 
 /***************************/
@@ -175,7 +173,7 @@
   display: block;
   font-size: 1.6rem;
   font-weight: 600;
-  color: #0dce94;
+  color: var(--light-green);
   text-transform: uppercase;
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;

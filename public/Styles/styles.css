@@ -4,7 +4,7 @@
   min-height: 100vh;
   padding: 100px;
   position: absolute;
-  background-color: #04091e;
+  background-color: var(--dark-blue);
   transition: 0.5s;
 }
 
@@ -26,8 +26,7 @@
 h1 {
   font-size: 4rem;
   font-weight: 400;
-  color: #fff;
-  /*spațiul dintre rânduri*/
+  color: var(--white);
   line-height: 1.1;
   letter-spacing: -3px;
   text-transform: uppercase;
@@ -36,14 +35,14 @@ h1 {
 .text p {
   font-size: 20px;
   line-height: 1.7;
-  color: #fff;
+  color: var(--white);
   margin: 20px 0;
 }
 
 .text a {
   display: inline-block;
-  background: #0dce94;
-  color: #fff;
+  background: var(--light-green);
+  color: var(--white);
   padding: 10px 30px;
   text-transform: uppercase;
   text-decoration: none;
@@ -52,13 +51,13 @@ h1 {
 }
 
 .text a:hover {
-  background: #0dce9494;
+  background: var(--grayish-green);
 }
 
 /*background card*/
 
 .bg-cards {
-  background: #04091e;
+  background: var(--dark-blue);
   width: 100%;
   min-height: 50vh;
   margin-top: 44em;
@@ -66,7 +65,7 @@ h1 {
 }
 
 .text-bg-cards h4 {
-  color: #0dce94;
+  color: var(--light-green);
   text-align: center;
   text-transform: uppercase;
   font-size: 14px;
@@ -75,14 +74,14 @@ h1 {
 }
 
 .text-bg-cards h3 {
-  color: #fff;
+  color: var(--white);
   font-size: 30px;
   text-align: center;
   padding-top: 15px;
   text-transform: capitalize;
 }
 
-/*cardurile*/
+/*cards*/
 .container-cards {
   display: flex;
   position: relative;
@@ -96,7 +95,7 @@ h1 {
 .card-four {
   width: 330px;
   height: 330px;
-  background-color: #0dce94;
+  background-color: var(--light-green);
 }
 
 .card-one {
@@ -112,7 +111,7 @@ h1 {
 }
 
 .title-cards {
-  color: #04091e;
+  color: var(--dark-blue);
   font-size: 36px;
   position: relative;
   left: 20px;
@@ -120,7 +119,7 @@ h1 {
 }
 
 .paragraph-cards {
-  color: #04091e;
+  color: var(--dark-blue);
   position: relative;
   left: 20px;
   padding: 46px 0 35px 0;
@@ -139,14 +138,14 @@ h1 {
 }
 
 .container-tel a {
-  color: #04091e;
+  color: var(--dark-blue);
   text-decoration: none;
   font-size: 17px;
   padding-left: 20px;
 }
 
 .card-three ul {
-  color: #04091e;
+  color: var(--dark-blue);
   padding-top: 10px;
   list-style: none;
   position: relative;
@@ -182,8 +181,8 @@ h1 {
 
 .button-cards {
   text-decoration: none;
-  background-color: #04091e;
-  color: #fff;
+  background-color: var(--dark-blue);
+  color: var(--white);
   cursor: pointer;
   position: relative;
   left: 20px;
@@ -191,12 +190,12 @@ h1 {
 }
 
 .button-cards:hover {
-  background-color: #1d2235;
+  background-color: var(--dark-grayish-blue);
 }
 
 /*citatul*/
 .quotes-cards {
-  color: #04091e;
+  color: var(--dark-blue);
   text-align: center;
   font-size: 20px;
   font-weight: 500;
@@ -218,7 +217,7 @@ h1 {
 
 /*secțiunea avantaje*/
 .parent {
-  background: #04091e;
+  background: var(--dark-blue);
   display: grid;
   margin: 54px 0 0 200px;
   grid-template-columns: repeat(2, 1fr);
@@ -250,7 +249,7 @@ h1 {
 }
 
 .div3 {
-  color: #fff;
+  color: var(--white);
   font-size: 20px;
   grid-area: 1 / 2 / 3 / 3;
 }
@@ -269,17 +268,18 @@ h1 {
 }
 
 /*sectiunea patru*/
+.title-section-four,
+.paragraph-section-four {
+  color: var(--dark-blue);
+  text-align: center;
+}
 
 .title-section-four {
-  color: #04091e;
-  text-align: center;
   margin-top: 100px;
   font-size: 35px;
 }
 
 .paragraph-section-four {
-  color: #04091e;
-  text-align: center;
   margin-top: 20px;
   line-height: 1.7;
 }
@@ -295,8 +295,8 @@ h1 {
 .doctor-three,
 .doctor-four,
 .doctor-five {
-  background: #04091e;
-  color: #fff;
+  background: var(--dark-blue);
+  color: var(--white);
   height: 120px;
   width: 280px;
   margin-right: 40px;
@@ -364,20 +364,20 @@ h1 {
 .contact-form-textarea,
 .contact-form-btn {
   width: 100%;
-  color: #04091e;
-  border: 1px solid #bcbcbc;
+  color: var(--dark-blue);
+  border: 1px solid var(--gray);
   margin-bottom: 20px;
   padding: 15px;
 }
 
 .contact-form-btn {
-  background: #0dce94;
-  color: #fff;
+  background: var(--light-green);
+  color: var(--white);
   padding: 10px 0;
   cursor: pointer;
   font-size: 18px;
 }
 
 .contact-form-btn:hover {
-  background: #0dce9494;
+  background: var(--grayish-green);
 }

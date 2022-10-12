@@ -6,7 +6,7 @@ body {
 #appointment {
   width: 50%;
   margin: 140px auto;
-  background: #fff;
+  background: var(--white);
 }
 
 .appointment-form {
@@ -20,7 +20,8 @@ body {
 
 .appointment-form-text {
   height: 40px;
-  border: 1px solid #bcbcbc;
+  border: 1px solid var(--gray);
+
   margin-bottom: 20px;
   padding: 15px;
 }
@@ -28,14 +29,14 @@ body {
 .appointment-form-textarea {
   width: 100%;
   height: 130px;
-  border: 1px solid #bcbcbc;
+  border: 1px solid var(--gray);
   margin-bottom: 20px;
   padding: 15px;
 }
 
 .appointment-form-btn {
-  color: #fff;
-  background: #0dce94;
+  color: var(--white);
+  background: var(--light-green);
   cursor: pointer;
   font-size: 18px;
   width: 100%;
